@@ -1,0 +1,36 @@
+html{
+    font-size: calc(100vw/1920 * 10);
+    line-height: 1;
+    position: fixed;
+}
+
+body{
+    top: 0;
+    left: 0;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #0e0e0e;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+img{
+    object-fit: cover;
+}
+
+button{
+    outline: none;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    border: none;
+}
+
+canvas{
+    z-index: -1;
+}
